@@ -1,0 +1,31 @@
+# ignore css files not under style/src {{{
+*.css
+!style/src/*.css
+!style/src/*/*.css
+!style/src/*/*/*.css
+
+# ignore lesscss compiled css files {{{
+style/src/*.lcc.css
+style/src/*/*.lcc.css
+style/src/*/*/*.lcc.css
+# }}}
+
+# }}}
+
+# javascript {{{
+
+# ignore compiled javascript files {{{
+*.gcc.min.js
+*.yui.min.js
+# }}}
+
+# ignore javascript files not under style/src {{{
+*.js
+!javascript/src/*.js
+!javascript/src/*/*.js
+!javascript/src/*/*/*.js
+# }}}
+
+# }}}
+
+# vim:ft=:fdm=marker:fmr={{{,}}}:

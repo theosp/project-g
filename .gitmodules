@@ -1,0 +1,12 @@
+[submodule "style/src/theosp_common_css"]
+	path = style/src/theosp_common_css
+	url = git@github.com:theosp/theosp_common_css.git
+[submodule "javascript/src/headjs"]
+	path = javascript/src/headjs
+	url = git@github.com:theosp/headjs.git
+[submodule "javascript/src/theosp_common_js"]
+	path = javascript/src/theosp_common_js
+	url = git@github.com:theosp/theosp_common_js.git
+[submodule "build"]
+	path = build
+	url = git@github.com:theosp/theosp_common_build_tools.git
