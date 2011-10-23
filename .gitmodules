@@ -10,3 +10,6 @@
 [submodule "build"]
 	path = build
 	url = git@github.com:theosp/theosp_common_build_tools.git
+[submodule "javascript/src/jit"]
+	path = javascript/src/jit
+	url = git@github.com:theosp/jit.git
